@@ -1,0 +1,13 @@
+function printNumbersWithRules(x) {
+  for (let i = 1; i <= x; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log('tigalima');
+    } else if (i % 3 === 0) {
+      console.log('tiga');
+    } else if (i % 5 === 0) {
+      console.log('lima');
+    } else {
+      console.log(i);
+    }
+  }
+}
